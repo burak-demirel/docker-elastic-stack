@@ -1,0 +1,5 @@
+http.host: "0.0.0.0"
+config.debug: true
+log.level: debug
+path.logs: /var/log
+xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]
